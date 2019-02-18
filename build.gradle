@@ -26,6 +26,9 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testCompile 'junit:junit:4.12'
     compile 'junit:junit:4.12'
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test
+testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '1.5.19.RELEASE'
+    
 }
 
 sourceSets {
